@@ -10,3 +10,6 @@ interlaced with a repeating chorus.
 - use a for loop for creating the full lyrics
 
 '''
+from PyLyrics import *
+
+print(PyLyrics.getLyrics('Taylor Swift','Blank Space')) #Print the lyrics directly

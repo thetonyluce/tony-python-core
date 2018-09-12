@@ -17,6 +17,7 @@ lyrics = """this is my first verse, so beautiful oh yeah
 and then comes the second verse, even better oh boy
 
 and since my song is short, the third verse wraps it up. yup."""
+
 chorus = "yeah yeah yeah, this is a chorus, yeah yeah yeah."
 
 # and now the programming logic to weave a song

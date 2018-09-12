@@ -10,9 +10,8 @@ def right_justify(name):
     position = 70 - len(name)
     return position
 
+
 print (right_justify(user_name) * " ", user_name)
 
-
-
-import math
-math.
+import random
+random.choice

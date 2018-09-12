@@ -19,3 +19,18 @@ so to make it a bit harder, here are some rules to follow.
 4) Put a blank line between each verse of the song.
 
 '''
+for i in range(99, 1, -1):
+
+    if i == 2:
+        print(str(i) + " bottles of beer on the wall" + ", " + str(i) + " bottles of beeeeer!")
+        print("You take one down, pass it around, " + str(i - 1) + " bottle of beer on the wall.")
+
+    elif i == 1:
+        print(str(i) + " bottle of beer on the wall" + ", " + str(i) + " bottle of beeeeer!")
+        print("You take one down, pass it around, " + str(i - 1) + " bottle of beer on the wall.")
+
+    else:
+        print(str(i) + " bottles of beer on the wall" + ", " + str(i) + " bottles of beeeeer!")
+        print("You take one down, pass it around, " + str(i - 1) + " bottles of beer on the wall.")
+
+    print("And we're done.")
