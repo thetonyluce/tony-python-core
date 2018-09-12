@@ -1,23 +1,65 @@
 1 - What is git?
 
+Definition 1: an unpleasant or contemptible person. "I'm an egotistical bastard, and I name all my projects after myself. First Linux, now git."
+
+The one you're looking for: a version control system for tracking changes in files and coordinating work amongst a group of people.
+
 2 - What is Github?
+
+It's a website / platform that allows people to share projects and code with each other so that they can reduce issues surrounding dependencies while continuing to develop their projects independently.
 
 3 - What is the general flow of git?
 
+Create a local repository. Put it under git control. Publish it to github to share. Commit changes as they occur.
+
 4 - What is a branch?
+
+A version of a project that differs from the master.
 
 5 - What is a remote?
 
+It's a path to a repository. If using Github it's the URL that leads to a repository.
+
 6 - What is the purpose of adding a remote to a local git repository?
 
+It enables the local repository to be synchronized with Github (or another git control platform)
+
 7 - What are the commands to do the following?
+
+
 	- initialize a git repository
+
+        git init
+
 	- clone a repository from Github
+
+        git clone <url>
+
 	- add a file to the staging area
+
+        git add <file>
+
 	- make a commit
+
+        git commit -m <comment>
+
 	- push to Github
+
+        git push <branch> <remote>
+
 	- pull from Github
+
+        git pull <branch> <remote>
+
 	- see the names of the branches
+
+        git branch
+
 	- see the names of the remotes
+
+        git remote -v
+
 	- add a new remote
+
+        git remote add <remote> <url>
 

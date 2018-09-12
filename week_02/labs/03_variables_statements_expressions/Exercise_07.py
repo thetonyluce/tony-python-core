@@ -9,3 +9,11 @@ for the next 3 years (without a leap year).
 Let's say the current population is 380,123,456.
 
 '''
+today_population = 380123456
+seconds_per_year = 365 * 24 * 60 * 60
+annual_births = seconds_per_year / 6
+annual_deaths = seconds_per_year / 12
+annual_immigration = seconds_per_year / 40
+annual_pop_growth = annual_births + annual_deaths + annual_immigration
+pop_projection = (3 * annual_pop_growth) + today_population
+print ('Population Projection for 2021:', pop_projection)

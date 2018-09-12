@@ -1,12 +1,12 @@
 1 - Using the command line, how do you:
-    - change directories?
-    - list the contents of a folder?
-    - print the path of the current directory?
-    - move a file from one location to the another?
-    - copy a file from one location to another?
-    - create a file?
-    - create a folder?
-    - delete a file?
-    - delete a folder?
-    - print the contents of a file?
-    - edit the contents of a file?
+    - change directories? $ cd <directory>
+    - list the contents of a folder? $ ls <directory> or $ ls -la <directory>
+    - print the path of the current directory? cat <directory>
+    - move a file from one location to the another? $ mv <file> <directory>
+    - copy a file from one location to another? cp <file> <directory>
+    - create a file? touch <file>
+    - create a folder? mkdir <directory>
+    - delete a file? rm <file> or rm -f <file>
+    - delete a folder? rm -r <directory>
+    - print the contents of a file? cat <file>
+    - edit the contents of a file? find . -name '*.<ext>' -exec sed -i "" 's/<original>/<replacement>/g' {} \;

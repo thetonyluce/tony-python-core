@@ -13,3 +13,13 @@ The output should look something like this:
 	10|20|30|40|50|60|70|80|90|100|
 
 '''
+# initialize an empty string for our table
+mult_table = ""
+
+for num in range(1, 11):
+    for n in range(1, 11):
+        # check out this awesome formatting option with <3 ;)
+        mult_table += f"{num * n: <3}|":
+    mult_table += "\n":
+
+print(mult_table)

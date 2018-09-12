@@ -1,24 +1,46 @@
 1 - What is a function?
 
+A named sequence  of statements that performs some useful operation.
+
 2 - What does mean to have a function that "takes" a value?
+
+A function can (and usually does) require a value to be passed to it when being called.
 
 3 - What is a return value?
 
+A return value is the computed result of the function.
+
 4 - What do type conversion functions do?
+
+They convert values from one type to another.
 
 5 - What happens if you call the int() function and pass it a string?
 
+It complains
+
 6 - What happens if you call the str() function and pass it an int?
+
+Nothing
 
 7 - How do you import a class to one of your programs?
 
+
+
 8 - How do you use math functions in one of your programs?
+
+Add import math at the beginning of the script.
 
 9 - What is the dot notation?
 
+A way of calling functions
+
 10 - What is composition?
 
+The way you combine variables, expressions, and statements into a function.
+
 11 - Give an example of composition in a function call?
+
+circumference = 2(math.pi * ** 2)
 
 12 - How do you define a function?
 
@@ -28,27 +50,51 @@
 
 15 - Can functions call other functions?
 
+Of course.
+
 16 - Complete Exercise 3.1 (p.26) and 3.2 (p.27) from the text book.
+
+Aight.
 
 17 - What is the flow of execution?
 
+the order in which statements are executed
+
 18 - Where does a program begin execution?
+
+the first statement of the program
 
 19 - How does a function call change the flow of of execution?
 
+They don't.
+
 20 - Do the rules of composition apply to method parameters as well?
+
+Yes. Yes they do.
 
 21 - Do parameters and variables inside of a function exist outside of the method? Why or why not?
 
+No they do not. They are locals. Need some worldly experience.
+
 22 - How can stack diagrams be useful?
+
+To keep track of which variables can be used where.
 
 23 - What is the difference between a "fruitful" function and a void function?
 
+A fruitful function returns a value. A void function does not.
+
 24 - What are some of the reasons we separate our code into functions?
+
+Makes programs easier to read and debug.
+Makes it easier to optimize code by eliminating unnecessary repetitions.
 
 25 - What is the difference between the following two statements?
 	import math
 	<and>
-	from math import *
+	from math import
+
+Import math imports the math module.
+from math import calls an object from the mat module.
 
 	How can you use the functions of the math module in each case?

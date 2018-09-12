@@ -1,32 +1,71 @@
 1 - What is a value?
 
+A value in computer programming is a "representation of some entitty that can be manipulated by a program." Most often a letter, string of letters, or a number.
+
 2 - What is a type?
+
+A classification of data which tells the interpreter how to use data. e.g. Integer, String, Floating Point Numbers.
 
 3 - What are some values we have seen so far?
 
+We have seen many. I'm not sure what you're looking for here.
+
 4 - What is an example of a int? A floating-point number? A string?
+
+9, 9.09, "Nine"
 
 5 - What is a variable?
 
+A variable is a name that refers to a value.
+
 6 - How do you assign the variable x to the value of 10?
+
+x = 10
 
 7 - What is an example of an illegal variable name?
 
+86753Ohniieiine
+
 8 - What are keywords and what are they used for?
+
+Keywords are used by a computing language to interpret the structure of the program and cannot be used as variable names.
 
 9 - What are operators and what are they used for?
 
+Operators are special symbols that represent computations like addition and multiplication.
+
+<<<<<<< HEAD
 10 - Use the interpretor to demonstrate the use of some of the operators. Give the input and output of addition, multiplication and exponentiation.
+=======
+10 - Use the interpreter to demonstrate the use of some of the operands. Give the input and output of addition, multiplication and exponentiation.
+>>>>>>> 8958bd94d0c538a41cc66c1c21357977589e592e
 
 11 - What is floor division? How does Python 3 handle floor division?
 
+Floor division cuts of any fractions when doing division with integers.
+floating point division example: 15 // 4 = 3.75
+floor division example:  15 // 4 = 3
+
 12 - What is the difference between an expression and a statement?
+
+An expression has value and a statement does not.
 
 13 - What is the order of operations?
 
+PEMDAS - the order in which the computer will execute computations in an expression.
+
+Parenthesis
+Exponentiation
+Multiplication Division
+Addition Subtraction
+
 14 - What does the + operator do when performed on strings? What does the * operator do when performed on strings? What operators can you not use on strings?
 
+When the + operator is used on text strings it will concatenate them.
+
 15 - How do you put comments in your code? What are comments used for?
+
+Comments begin with # and they are used to explain what the heck you are doing - for yourself and in case you create something miraculous the entire world needs but then get hit by a bus.
 
 
 

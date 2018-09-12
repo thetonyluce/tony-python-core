@@ -1,27 +1,60 @@
 1 - What is a boolean expression?
 
+An expression that has one of two values: true or false
+
 2 - What are relational operators used for?
+
+Comparing two values
 
 3 - What is the difference between == and = ?
 
+= is an Assignment Operator it is used to assign the value of variable or expression, while == is an Equal to Operator and it is a relation operator used for comparison
+
 4 - What are the three logical operators?
+
+=> >= <=
 
 5 - What do relational and logical operators evaluate to?
 
+True or False
+
 6 - What is the if statement used for?
+
+The if statement is used to check a condition: if the condition is true, we run a block of statements (called the if-block), else we process another block of statements (called the else-block). The else clause is optional.
 
 7 - What is an if/else statement used for?
 
+ Altenrative execution
+
 8 - What is a chained conditional? How do you chain conditionals?
+
+Used when there are more than two possible outcomes to a computation.
+
+if choice == a:
+    draw_a()
+
+elif
 
 9 - What is a nested conditional?
 
+A conditional nested inside of another conditional
+
 10 - Is there a limit to how many conditional statements you can nest?
+
+No. But it will get confusing soon.
 
 11 - What is a while loop?
 
+ A while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition.
+
 12 - What is a for loop? How is it different than a while loop?
+
+A for-loop has two parts: a header specifying the iteration, and a body which is executed once per iteration. For loops typically are for running code a fixed amount of times, while loops are for running code continuously until a condition changes.
 
 11 - What does the break statement do?
 
+Breaks a loop
+
 12 - Is there a limit to how many loops you can nest?
+
+Nope

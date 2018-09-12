@@ -1,18 +1,50 @@
 0 - Why do we not program in plain English (or another natural language)?
 
+    Natural languages aren't precise - their rules and syntax aren't precise enough for computers to be able to interpret without additional semantic interpretation.
+
 1 - What is the difference between an interpretor and a compiler?
     Which is used for Python?
 
+    An interpreter processes a program one line at a time - it altnernates between translating and computing when executing a program.
+
+    A compiler takes a program and translates it into object code or executable format so that it can be executed by a comuter.
+
 2 - What are two ways to execute Python code?
 
+    Interactive mode - where an operator inputs code and it is immediately executed.
+    Script mode - operator creates files with "scripts" that can be executed on demand or as part of a larger program.
+
 3 - How do you execute a Python script?
+
+    Communicate to the Interpreter which file should be executed - aka give the Interpreter (python) a name. (e.g. python 00_Intro_01.py)
 
 4 - In your own words describe what a program is
     and what programs are made up of.
 
+    To me a program is basically a set of explicit instructions that can be executed to acheive a desired outcome. In computing this means performing computations. In the real world a recipe for food could be considered a program.
+
 5 - What are the main three types of errors and how do you come across them?
 
+    Syntax Errors - basically a 'spelling mistake' in computer language. Discovered when you try to run the program and the 'computer says no'.
+
+    Runtime Errors - an error that appears after the program is running. Blue screen of death would be a good symptom. That, or maybe if your computer halted and caught fire. Unless, of course, someone planned it. A devious someone.
+
+    Semantic Errors - Basically an error caused because of the imperfect nature of humans. Something our future robot overlords will find hilarious.
+
+
 6 - What does it mean to debug a program?
+
+    Basically go through the code and fix any errors (syntactic, runtime, or semantic) to get the program performing the way it was originally envisioned to run.
+
     What are some ways to debug a program?
 
+    Back in the good ol' days they actually had to go find the roach and replace a fuse.
+    These days we use the scientific method - ya know:
+    create hypothesis --> test --> result --> pull out hair --> repeat
+
+
 7 - What is a “high-level language” / what’s a “low-level-language”?
+
+    A high level languages have to be processed (or interpreted) before they can be run on a computer. They are essentially ontological vocabularies that allow programmers to write code faster, with less code, with less errors, and that can run on any computer.
+
+    A low level language is a language that is written specifically for a a piece of hardware that can run without an interpreter. Also called assembly or machine language. Typically only used by component manufacturers (in my experience) - and maybe the military (e.g. writing code for planes and tanks)

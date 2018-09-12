@@ -1,6 +1,10 @@
 1 - What is a string?
 
+A python string is a sequence of character (aka text).
+
 2 - What is an index?
+
+The number of characters in a string, with each value corresponding to a specific character in the string.
 
 3 - What letter will the following code print? Why?
 
@@ -8,15 +12,31 @@
     index_two = word[2]
     print index_two
 
+    l - because indexes begin with 0
+
 4 - What is the len() functions used for?
+
+Determining the length of a string.
 
 5 - How can you get the last character of a word using the len() function?
 
+user_input = input ("Write something: ")
+word_length = len(user_input)
+print (user_input[word_length-1])
+
 6 - What is string slicing and how does it work?
+
+It allows you to create segments from strings. Works like index but with start/end values.
+
+string [start : end]
 
 7 - How to do slice the string "python" to produce the string "thon"?
 
+python [3:6]
+
 8 - How can you use slicing to store the first and last character of a word in separate variables?
+
+
 
 9 - What are the answers to Exercise 8.4 (p.80) from the textbook?
 
