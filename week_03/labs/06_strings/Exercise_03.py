@@ -1,6 +1,9 @@
 '''
 Complete Exercise 8.4 (p.96) from the textbook by writing out the docstrings for the functions.
 
+Attributes:
+    s (str): Description
+
 '''
 s = 'Chris Cocksman'
 
@@ -40,22 +43,34 @@ def any_lowercase2(s):
             return 'False'
 
 
-'''
-
-
 def any_lowercase3(s):
+    """Summary: Tests for lowercase letters and returns a boolean. Doesn't work. Is terrible.
+
+    Args:
+        s (TYPE): String
+
+    Returns:
+        TYPE: Boolean
+
+
     for c in s:
         flag = c.islower()
     return flag
 
-
-'''
-
 def any_lowercase4(s):
+    """Summary: Tests for lowercase letters and returns a boolean. Doesn't work. Flag will always equal flag.
+
+    Args:
+        s (TYPE): String
+
+    Returns:
+        TYPE: Boolean
+    """
     flag = False
     for c in s:
         flag = flag or c.islower()
     return flag
+'''
 
 
 def any_lowercase5(s):
@@ -63,5 +78,6 @@ def any_lowercase5(s):
         if not c.islower():
             return False
     return True
-'''
-print (any_lowercase3(s))
+
+
+print (any_lowercase5(s))

@@ -14,14 +14,20 @@ The output should look something like this:
 
 '''
 # initialize an empty string for our table
+
 for i in range(1, 11):
 
     for x in range(1, 11):
 
-        if x < 10
+        if (x * i) < 10:
+            delimeter = "  |"
 
-        print (str(x * i) + ' |', end="")
+        elif (x * i) < 100:
+            delimeter = " |"
 
-        else print (str(x * i) + '|', end"")
+        else:
+            delimeter = "|"
+
+        print (str(x * i) + delimeter, end="")
 
     print()
