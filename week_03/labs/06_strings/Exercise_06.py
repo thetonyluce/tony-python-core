@@ -17,4 +17,3 @@ and generalize it so that it accepts the string and the letter as arguments.
 it uses the three-parameter version of find from the previous section.
 
 '''
-math.section

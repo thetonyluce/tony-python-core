@@ -26,6 +26,5 @@ for x in message:
     enumerated_character = ord(x)
     encyrpted_character = enumerated_character + cipher
     new_character = chr(encyrpted_character)
-    print(enumerated_character)
 
-print(type(enumerated))
+    print(type(encyrpted_character))

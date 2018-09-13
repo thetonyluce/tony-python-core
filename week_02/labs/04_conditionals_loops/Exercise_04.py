@@ -9,4 +9,4 @@ for x in range(1, 100):
         if x % y == 0:
             break
     else:
-        print (x, )
+        print (x)

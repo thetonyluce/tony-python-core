@@ -24,7 +24,7 @@ Nothing
 
 7 - How do you import a class to one of your programs?
 
-
+import <class>
 
 8 - How do you use math functions in one of your programs?
 
