@@ -17,3 +17,20 @@ and generalize it so that it accepts the string and the letter as arguments.
 it uses the three-parameter version of find from the previous section.
 
 '''
+
+letter = input("Enter a letter:")
+word = input("Enter a word:")
+
+
+def count(letter, word):
+    tally = 0
+    for letter in word:
+        if letter in word:
+            tally + 1
+        else:
+            tally + 0
+    return tally
+
+
+count = count(letter, word)
+print(count)

@@ -15,7 +15,7 @@ sum = 0
 tally = 0
 for i in range(user_number1, user_number2 + 1):
     sum += i
-    tally = + 1
+    tally = tally + 1
 
 number_average = (sum / tally)
 

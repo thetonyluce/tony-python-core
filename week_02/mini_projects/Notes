@@ -1,0 +1,29 @@
+Notes
+
+Functions
+Delaration
+Name
+Parameters
+
+Function Components
+name
+arguments
+body
+return value
+
+For loops
+
+    For in _list - for evaluating collections (lists, tuples, strings)
+
+    For i in range (x, y) - includes x, excludes y - for iterative calculations
+
+for _ in range
+
+_list  = list(range(100))
+
+list = []
+
+pass  = placeholder
+
+while loop - repeats until a certain condition is met
+

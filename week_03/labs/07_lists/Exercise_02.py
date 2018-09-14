@@ -9,3 +9,5 @@ Print both.
 
 list_one = [0, 4, 6, 18, 25, 42, 100]
 list_two = [1, 4, 9, 24, 42, 88, 99, 100]
+
+print(list(set(list_one) - set(list_two)))

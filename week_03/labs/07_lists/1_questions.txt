@@ -1,44 +1,98 @@
 1 - Can you have a list with more than one type?
 
+Yes
+
 2 - How do you create a list?
+
+Enclose elements in square brackets [10,20,30,40]
 
 3 - How do you nest a list?
 
+list [[list], value, value]
+
 4 - Lists are mutable. Explain this.
 
-5 - What does it mean to have the [] operators on the left side of an assignment?
+Lists can be modified (added to, subtracted from, appended, etc)
+
+5 - What does it mean to hve the [] operators on the left side of an assignment?
+
+a[0] = 1
+
+Brackets on the left side indicate that you are referencing a position.
 
 6 - What happens with a index value is negative? How does this change how an element is accessed?
 
+Negative index is used in python to index starting from the last element of the list, tuple or any other container class which supports indexing. -1 refers to the last index, -2 refers to the second last index and so on.
+
 7 - How can you use the in operator to determine in a value exists in a list?
+
+If value in list
 
 8 - How can you use the + and * operators on lists?
 
+The + operator concatenates lists
+The * operator repeats a list a given number of times
+
 9 - What is an augmented assignment statement?
+
+A short way to update a variable.
 
 10 - WHat are three ways delete an element from a list? How are they different?
 
+Use pop, del, or remove methods
+
+pop modifies the list and returns the element that was removeed. If no index position is specified it removes the last element in the list.
+
 11 - What is the difference between and list and a string?
+
+A list is mutable and a string is not.
 
 12 - What is the difference between the list() function and the split() method?
 
+Lists always breaks a string into individual letters, whereas split uses delimeters to break a string into words (or chunks).
+
 13 - How do you use a delimiter with the split() method?
+
+s = 'spam-spam-spam'
+delimiter = '-'
+t = s.split(delimiter)
+t
+['spam', 'spam', 'spam']
 
 14 - What is the `is` operator used for?
 
+To check whether two variables refer to the same object, you can use the is operator.
+
 15 - If two objects are identical does that also make them equivalent?
+
+Yes.
 
 16 - If two objects are equivalent does that also make them identical?
 
+No
+
 17 - What is a reference?
+
+The association of a variable with an object is called a reference.
 
 18 - What is it called when an object has more than one reference?
 
+Aliasing
+
 19 - Give an example of an operation that modifies a list.
+
+def delete_head(t)
+    del t[0]
 
 20 - Give an example of an operation that creates a new list.
 
+t1 = [1,2]
+t2 = [3.4]
+t3 = t1 + t2
+
 21 - What is one reason it is important to know the difference between the two kinds of operations above?
+
+Potential impact on existing code
 
 
 

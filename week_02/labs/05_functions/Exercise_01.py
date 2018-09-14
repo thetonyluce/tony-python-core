@@ -12,6 +12,3 @@ def right_justify(name):
 
 
 print (right_justify(user_name) * " ", user_name)
-
-import random
-random.choice
