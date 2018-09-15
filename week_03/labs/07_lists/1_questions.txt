@@ -37,7 +37,7 @@ The * operator repeats a list a given number of times
 
 A short way to update a variable.
 
-10 - WHat are three ways delete an element from a list? How are they different?
+10 - What are three ways delete an element from a list? How are they different?
 
 Use pop, del, or remove methods
 
@@ -93,6 +93,3 @@ t3 = t1 + t2
 21 - What is one reason it is important to know the difference between the two kinds of operations above?
 
 Potential impact on existing code
-
-
-

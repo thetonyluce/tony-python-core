@@ -24,7 +24,6 @@ The ability of functions to accept a variable number of arguments.
 
 A parameter name that begins with * gathers arguments into a tuple.
 
-
 7 - What does the zip function do?
 
 zip is a built-in function that takes two or more sequences and returns a list of tuples where each tuple contains one element from each sequence. The name of the function refers to a zipper, which joins and interleaves two rows of teeth.
