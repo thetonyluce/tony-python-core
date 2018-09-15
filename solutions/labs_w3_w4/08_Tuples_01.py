@@ -34,5 +34,4 @@ def tuplify(input_list):
     return tuple_list
 
 # testing the function
-num_list = [1, 7, 3, 5, 4, 6, 2]
 print(tuplify(num_list))

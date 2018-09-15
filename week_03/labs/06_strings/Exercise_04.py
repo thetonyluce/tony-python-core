@@ -11,7 +11,6 @@ Write a script that finds the first vowel in a a user inputted string.
 
 vowels = "aeiouAEIOU"
 
-
 def in_both(word1, word2):
     for letter in word1:
         if letter in word2:
@@ -21,4 +20,4 @@ def in_both(word1, word2):
 
 word = input("Having trouble recognizing vowels? Enter your word and I'll tell you the first vowel in that word:")
 
-in_both(vowels, word)
+print(in_both(vowels, word))

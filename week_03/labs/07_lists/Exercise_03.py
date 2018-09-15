@@ -13,7 +13,6 @@ def nested_sum(t):
             sum += each_item
     return(sum)
 
-
 t = [[1, 2], [3], [4, 5, 6]]
 sum = nested_sum(t)
 print(sum)
