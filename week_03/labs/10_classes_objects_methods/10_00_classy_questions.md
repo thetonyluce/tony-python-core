@@ -25,18 +25,18 @@ characteristics of a class of objects that are defined in the class.
 It's when an object is used to define attributes in a Class
 
 - What is the difference between `copy.copy` and `copy.deepcopy`?
+
 What do they each do?
 
 copy.copy - A shallow copy means constructing a new collection object and then populating it with references to the child objects found in the original. In essence, a shallow copy is only one level deep. The copying process does not recurse and therefore won’t create copies of the child objects themselves.
 
-copy - deepcopy A deep copy makes the copying process recursive. It means first constructing a new collection object and then recursively populating it with copies of the child objects found in the original. Copying an object this way walks the whole object tree to create a fully independent clone of the original object and all of its children.
+copy.deepcopy A deep copy makes the copying process recursive. It means first constructing a new collection object and then recursively populating it with copies of the child objects found in the original. Copying an object this way walks the whole object tree to create a fully independent clone of the original object and all of its children.
 
 - What is the difference between a pure function and a modifier?
 
 Pure functions do not product side effects (they )
 
 - What is object-oriented programming?
-
 
 ## Methods (page 161)
 

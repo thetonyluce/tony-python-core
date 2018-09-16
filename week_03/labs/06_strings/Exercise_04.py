@@ -18,6 +18,6 @@ def in_both(word1, word2):
             break
 
 
-word = input("Having trouble recognizing vowels? Enter your word and I'll tell you the first vowel in that word:")
+user_input = input("Having trouble recognizing vowels? Enter your word and I'll tell you the first vowel in that word:")
 
 print(in_both(vowels, word))

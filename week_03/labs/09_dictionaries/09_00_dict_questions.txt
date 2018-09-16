@@ -25,25 +25,61 @@ first_dict =  = {'one': 'uno', 'two': 'dos', 'three}
 
 6 - How do you print out a value using a key?
 
-print
+print(dictionary_name[key])
 
 7 - How does the in operator work with dictionaries?
 
+It tells you whether something appears as a key in the dictionary (appearing as a value is not good enough).
+
 8 - What is an implementation?
+
+An implementation is a way of performing a computation; some implementations are better than others.
+For example, an advantage of the dictionary implementation is that we don’t have to know ahead of
+time which letters appear in the string and we only have to make room for the letters that do appear.
 
 9 - Write an example for loop to traverse a dictionary loop_dict and
     print out the keys and values.
 
+    def print_dict(h):
+    for c in h:
+       print(c, h[c])
+
+    print(print_dict(loop_dict))
+
+
 10 - How can you find search for a key given a value.
-    What is this called?
+     What is this called?
+
+     value = dictionary[key]
 
 11 - Can lists be keys of a dictionary? Why or why not?
 
+     Lists can appear as keys in a dictionary. Many keys can point to a single value.
+
 12 - Can lists be values of a dictionary? Why or why not?
+
+     Lists can appear as values in a dictionary. One value can belong to multiple keys.
 
 13 - What is a global variable?
 
+    A variable that can be accessed from any function. Must belong to main.
+
 14 - How do you reassign a global variable inside of a function?
 
+    Use the syntax:
+
+    To reassign a global variable inside a function you have to declare the global variable before you use it
+
+        been_called = False
+
+        def example2():
+            global been_called
+            been_called = True
+
+        The global statement tells the interpreter something like, “In this function, when I say been_called,
+        I mean the global variable; don’t create a local one.”
+
 15 - When do you not need to use the "global" keyword to modify the
-    value of a global variable?
+     value of a global variable?
+
+     If a global variable refers to a mutable value, you can modify the value without declaring the variable:
