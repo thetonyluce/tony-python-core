@@ -6,15 +6,8 @@ Source: http://greenteapress.com/thinkpython2/html/thinkpython2010.html
 
 '''
 
-with open('/Users/anthonyluce/CodingNomads/Labs/python_core/week_03/labs/12_files/words2.txt', 'r') as f:
-    data = f.read()
-
-print(data)
-
-
-"""
-last = data[-1].rstrip()
-
-with open('output.txt'), 'w') as f:
-    f.write(last)
-"""
+with open('12_files/words2.txt', 'r') as f: #open this file as variable f
+for word in f.readlines():                  #read file line by line
+        word = word.rstrip()                #strip whitespace characters
+        if len(word) > 20:                  #if length of word > 20
+            print(word)                     #print results

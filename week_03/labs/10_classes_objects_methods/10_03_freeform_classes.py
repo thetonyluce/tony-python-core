@@ -19,24 +19,38 @@ Cars, animals, poker games, sports teams, trees, beers, people etc...
 '''
 
 
-class Car():
+class Person:
 
-    def __init__(self, make, model, year):
-        self.make = make
-        self.model = model
-        self.year = year
+    def __init__(self, firstname, lastname):
+        self.firstname = firstname
+        self.lastname = lastname
 
-    def __str__(self):
-        return f"Make = {self.make}, Model = {self.model},Year = {self.year}"
+    def Name(self):
+        return self.firstname + " " + self.lastname
+
+class Employee(Person):
+
+    def __init__(self, firstname, lastname, staffID):
+        Person.__init__(self, firstname, lastname)
+        self.staffnumber = staffID
+
+    def GetEmployee(self):
+        return self.Name() + ", " +  self.staffnumber
 
 
-class Ford(Car):
-    self.make = Ford
+class Boss(Employee):
 
-    def __init___(self):
-        return f"Make = {self.make}"
+    def __init__(self, firstname, lastname, staffID, bosstype):
+        Employee.__init__(self, firstname, lastname, staffID)
+        self.bosstype = bosstype
 
+    def GetBoss(self):
+        return self.GetEmployee() + ", " +  self.bosstype
 
-tony_bronco = FordBronco(1976,)
+x = Person("Marge", "Simpson")
+y = Employee("Homer", "Simpson", "1007")
+z = Boss("Mr", "Burns", "01", "Evil")
 
-print (tony_bronco)
+print(x.Name())
+print(y.GetEmployee())
+print(z.GetBoss())
