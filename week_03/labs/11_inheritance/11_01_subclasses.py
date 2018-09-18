@@ -34,7 +34,7 @@ class Kiddo(Person):
         self.age = age
 
     def GetKiddo(self):
-        return self.GetKiddo() + ", " + self.age
+        return self.Name() + ", " + self.age
 
     # def say_age:
     #     the_simpsons = {
@@ -51,6 +51,33 @@ class Employee(Person):
 
     def GetEmployee(self):
         return self.Name() + ", " +  self.staffnumber
+
+class Friend(Person):
+    homer_friends = set[Barney Gumble, Moe Syslak, Apu]
+    marge_friends = set[Edna, Patty, Luann]
+    bart_friends = set[Milhouse, Nelson, Martin]
+    lisa_friends = set[Allison, Ralph, Bleeding Gums Murphy]
+    friends = {Homer : [homer_friends], Marge : marge_friends, Bart : bart_friends, Lisa : lisa_friends }
+
+    def __init__(self, firstname, lastname, Friend):
+        Person.__init__(self, firstname, lastname)
+        self.Friend = Friend
+
+    def GetFriend(self):
+        if self.friend in homer_friends:
+        return self.friend() + "is a friend of Homer!""
+
+        elif self.friend in marge_friends:
+        return self.friend() + "is a friend of Marge!"
+
+        elif self.friend in bart_friends:
+        return self.friend() + "is a friend of Bart!"
+
+        elif self.friend in lisa_friends:
+        return self.friend() + "is a friend of Bart!"
+
+        else:
+        return "Not sure who this is."
 
 
 class Boss(Employee):
@@ -71,8 +98,10 @@ p = Person("Marge", "Simpson")
 e = Employee("Homer", "Simpson", "1007")
 b = Boss("Mr", "Burns", "01", "Evil")
 k = Kiddo("Lisa", "Simpson", "11")
+f = Friend("Marge S")
 
 print(p.Name())
 print(e.GetEmployee())
 print(b.GetBoss())
 print(k.GetKiddo())
+print(k.GetFriend())
