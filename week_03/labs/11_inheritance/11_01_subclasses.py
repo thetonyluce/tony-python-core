@@ -16,3 +16,16 @@ your own for this exercise but if you are stuck, some ideas include:
 - A Restaurant superclass, with Gourmet and FastFood subclasses.
 
 '''
+
+
+class Shark:
+
+    def __init__(self):
+        self.teeth = print("The shark has giant teeth")
+        self.eatpeople = print("The shark is now eating people.")
+
+
+jaws = Shark()
+
+
+class (Shark):

@@ -10,6 +10,10 @@ Enclose elements in square brackets [10,20,30,40]
 
 list [[list], value, value]
 
+ or
+
+list = list()
+
 4 - Lists are mutable. Explain this.
 
 Lists can be modified (added to, subtracted from, appended, etc)
@@ -40,6 +44,9 @@ A short way to update a variable.
 10 - What are three ways delete an element from a list? How are they different?
 
 Use pop, del, or remove methods
+
+_list.pop()
+
 
 pop modifies the list and returns the element that was removeed. If no index position is specified it removes the last element in the list.
 
@@ -86,8 +93,8 @@ def delete_head(t)
 
 20 - Give an example of an operation that creates a new list.
 
-t1 = [1,2]
-t2 = [3.4]
+t1 = [1, 2]
+t2 = [3. 4]
 t3 = t1 + t2
 
 21 - What is one reason it is important to know the difference between the two kinds of operations above?

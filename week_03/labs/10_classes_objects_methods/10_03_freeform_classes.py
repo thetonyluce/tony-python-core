@@ -17,3 +17,26 @@ Using objects you can model anything you want.
 Cars, animals, poker games, sports teams, trees, beers, people etc...
 
 '''
+
+
+class Car():
+
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+
+    def __str__(self):
+        return f"Make = {self.make}, Model = {self.model},Year = {self.year}"
+
+
+class Ford(Car):
+    self.make = Ford
+
+    def __init___(self):
+        return f"Make = {self.make}"
+
+
+tony_bronco = FordBronco(1976,)
+
+print (tony_bronco)

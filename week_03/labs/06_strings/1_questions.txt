@@ -37,6 +37,8 @@ python[2:6]
 8 - How can you use slicing to store the first and last character of a word in separate variables?
 
 word = 'banana hammock'
+x = word[0]
+y = word[-1]
 
 9 - What are the answers to Exercise 8.4 (p.96) from the textbook?
 
@@ -44,16 +46,18 @@ See exercise.
 
 10 - Can you change one or more character of a string? Why or why not?
 
-No - strings are immutable
+No - strings are immutable.
 
 11 - What is invocation?
 
-A method call is called an invocation.
+A call to a method or a function is called an invocation.
 
 12 - How do you invoke the find() method on the string word with the value 'hello' to find the index of the letter e?
 
 word = "hello"
 index = word.find(e)
+
+hello.find(e)
 
 13 - Complete Exercise 8.5 (p.96) (Caesar cypher) from the textbook.
 
@@ -63,7 +67,7 @@ cipher = 7
 abc = list('abcdefghijklmnopqrstuvwxyz')
 encrypted = ""
 
-for char in secret:  # for every charater in secret message
+for char in secret: # for every charater in secret message
     if char.lower(secret) in abc:  # if it's a lowercase letter from the abc list
         for i, j in enumerate(abc):  # enumerate characters in abs - e.g. 1 a, 2 b, etc
             if j == char.lower():  # if there's a lower case letter
@@ -78,4 +82,4 @@ for char in secret:  # for every charater in secret message
 
 15 - How is the in operator used?
 
-
+      Will return a True or False

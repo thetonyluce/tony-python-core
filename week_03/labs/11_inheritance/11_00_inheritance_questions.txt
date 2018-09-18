@@ -1,12 +1,25 @@
 - What is the difference between class attributes and
     instance attributes?
 
+    Class attributes are attributes which are owned by the class itself and shared by all objects created with that class.
+    Instance attributes belong to individual objects.
+
 - What is inheritance?
+
+    Inheritance is the ability to define a new class that is a modified version of an existing class.
 
 - Why do we use inheritance?
 
+    To reduce complexity in a program and to make a program's design easier to understand.
+
 - How does a class inherit another class?
+
+  Class Car(object):
 
 - What is an example of a parent/child class relationship?
 
+  Car --> Ford --> Ford Bronco
+
 - How many levels can a hierarchy extend?
+
+  Unlimited

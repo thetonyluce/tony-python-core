@@ -40,6 +40,9 @@ time which letters appear in the string and we only have to make room for the le
 9 - Write an example for loop to traverse a dictionary loop_dict and
     print out the keys and values.
 
+    For key, value in loop_dict.item():
+      print(key, value)
+
     def print_dict(h):
     for c in h:
        print(c, h[c])
@@ -54,7 +57,7 @@ time which letters appear in the string and we only have to make room for the le
 
 11 - Can lists be keys of a dictionary? Why or why not?
 
-     Lists can appear as keys in a dictionary. Many keys can point to a single value.
+     Lists cannot be keys. Lists are mutable.
 
 12 - Can lists be values of a dictionary? Why or why not?
 
@@ -62,7 +65,7 @@ time which letters appear in the string and we only have to make room for the le
 
 13 - What is a global variable?
 
-    A variable that can be accessed from any function. Must belong to main.
+     A variable that can be accessed from any function. Must belong to main.
 
 14 - How do you reassign a global variable inside of a function?
 

@@ -20,8 +20,6 @@ Example output:
 
 user_input = input("I am a robot. I love sentences. You should give me one:")
 
-
-
 new_dic = {}
 
 def make_dictionary ():

@@ -16,8 +16,6 @@ If the Hero chooses to **attack**, the program decided through a simulated dice 
 
 Implement a result for either winning or losing, e.g. forcing the Hero to wait a few seconds before continuing in case they lose, or removing the Opponent from the Opponent pool in case the Hero wins.
 
----
-
 ## Hints
 
 There is a finished possible solution available in [this repo](https://github.com/martin-martin/python-rpg), that allows you to safely defuse your digital rage against Paywalls, PHP and even Wordpress sites. ;)
@@ -27,3 +25,21 @@ However, I strongly suggest to build out your own example, because using what yo
 ### How to
 
 To inspect the pre-made solution [provided here](https://github.com/martin-martin/python-rpg), download the repo and run `main.py` in a Python 3 environment. The rest is [l]ookaround, [a]ttack, and [r]unaway.
+
+### How to get this to works
+# 1 - create a hero class
+# 2 - create a
+
+class Hero():
+
+  def __init__(self, name, strength):
+              self.name = name
+              self.level = 10
+              print("A student object is created.")
+
+class Hero():
+
+def __init__(name, strength):
+            self.name = name
+            self.level = 10
+            print("A student object is created.")
