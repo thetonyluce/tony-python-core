@@ -2,7 +2,7 @@
 Write a function called sed that takes as arguments a pattern string,
 a replacement string, and two filenames; it should read the first file
 and write the contents into the second file (creating it if necessary).
-If the pattern string appears anywhere in the file, it should be
+If the pattern string appears anywhere in the 1st file, it should be
 replaced with the replacement string.
 
 If an error occurs while opening, reading, writing or closing files,
@@ -28,9 +28,3 @@ filedata = filedata.replace('suck', 'cluck')
 # Write the file out again
 with open('12_files/duck_martinez.txt', 'w') as file:
   file.write(filedata)
-
-# #create text file 2
-# file = open("file2.txt", "w")
-# file.write("Tony Luce")
-#
-# #swap text in files

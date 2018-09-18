@@ -9,3 +9,7 @@ TIP:
     very common. head over to SO and find a solution!
 
 '''
+import urllib
+url = "https://codingnomads.co"
+f = urllib.urlopen(url)
+print f.read()
