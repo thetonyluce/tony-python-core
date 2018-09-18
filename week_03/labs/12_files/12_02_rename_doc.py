@@ -15,3 +15,20 @@ Source: Read through the "Files" chapter in Think Python 2e:
 http://greenteapress.com/thinkpython2/html/thinkpython2015.html
 
 '''
+
+# Read in the file
+with open('12_files/fuck_martinez.txt', 'r') as file :
+  filedata = file.read()
+
+# Replace the target string
+filedata = filedata.replace('Fuck', 'Duck')
+
+# Write the file out again
+with open('12_files/duck_martinez.txt', 'w') as file:
+  file.write(filedata)
+
+# #create text file 2
+# file = open("file2.txt", "w")
+# file.write("Tony Luce")
+#
+# #swap text in files
