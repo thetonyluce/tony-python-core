@@ -9,3 +9,6 @@ for letter in 'suchalongword':
 print(letters)
 
 '''
+text_string = "Horny devil."
+new_list = [i for i in text_string]
+print(new_list)

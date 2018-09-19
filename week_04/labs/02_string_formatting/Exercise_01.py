@@ -25,3 +25,13 @@ office = [
     {"full_name": "Creed Bratton", "item": "mung beans"},
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
+
+for name in office:  # for names in office
+    first, last = name["full_name"].split()
+    # split the first and last name into two variables
+
+    split_name = f'{last.upper()}, {first.capitalize()}'
+    # create a string with last name upper case + first name Capitalized
+
+    print(f'{split_name: <18}{name["item"].capitalize()}')
+    # print string with split, modified name and item capitalized

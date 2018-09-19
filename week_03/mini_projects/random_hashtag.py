@@ -11,13 +11,11 @@ Tip: In UNIX systems you can access a dictionary file at this path:
 '''
 
 import random
-import this
-
-
 
 # Read in the file
-with open('/usr/share/dict/words', 'r') as file :
-  filedata = file.read()
+with open('/usr/share/dict/words', 'r') as file:
+    file_data = file.read()
+    file_data = file_data.split()
 
-print(type(filedata))
+print(random.choice(file_data))
 # print(random.choice(new_string)
