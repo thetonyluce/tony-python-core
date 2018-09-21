@@ -20,10 +20,10 @@ http://greenteapress.com/thinkpython2/html/thinkpython2015.html
 with open('12_files/fuck_martinez.txt', 'r') as file:
     filedata = file.read()
 
-# Replace the target string
-filedata = filedata.replace('Fuck', 'Duck')
-filedata = filedata.replace('fuck', 'duck')
-filedata = filedata.replace('suck', 'cluck')
+    # Replace the target string
+    filedata = filedata.replace('Fuck', 'Duck')
+    filedata = filedata.replace('fuck', 'duck')
+    filedata = filedata.replace('suck', 'cluck')
 
 # Write the file out again
 with open('12_files/duck_martinez.txt', 'w') as file:

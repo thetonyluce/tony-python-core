@@ -1,0 +1,17 @@
+''' A function that takes a function and returns a modified function is called a DECORATOR '''
+
+
+#passing variables
+def decorator_func (msg):
+
+    def wrapper_func():
+        print("Rappers like...")
+        return initial_func() #returns wrapper function ready to be executed
+
+    return wrapper_func
+
+@decorator_func
+def bling_it():
+    print("bling a bling bling")
+
+bling_ify = decorator_func(bling_it)
