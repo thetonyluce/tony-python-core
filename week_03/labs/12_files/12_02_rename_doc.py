@@ -17,7 +17,7 @@ http://greenteapress.com/thinkpython2/html/thinkpython2015.html
 '''
 
 # Read in the file
-with open('12_files/fuck_martinez.txt', 'r') as file:
+with open('fuck_martinez.txt', 'r') as file:
     filedata = file.read()
 
     # Replace the target string
@@ -26,5 +26,5 @@ with open('12_files/fuck_martinez.txt', 'r') as file:
     filedata = filedata.replace('suck', 'cluck')
 
 # Write the file out again
-with open('12_files/duck_martinez.txt', 'w') as file:
+with open('duck_martinez.txt', 'w') as file:
     file.write(filedata)

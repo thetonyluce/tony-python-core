@@ -3,9 +3,9 @@ Write a decorator function that wraps text passed to it in <p> tags.
 
 '''
 
-def paragraphed(f):
+def paragraphed(called_function):
     def wrapped():
-        return '<p>' + f() + '</p>'
+        return '<p>' + called_function() + '</p>'
     return wrapped
 
 @paragraphed
