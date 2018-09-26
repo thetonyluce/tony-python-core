@@ -17,15 +17,19 @@ class MyApp:
             split_path = path.split('/')
 
             # if path is inventory then show inventory
-            if path == '/inventory':
+            if split_path[1] == 'inventory' and len(split_path) < 2:
                 inventory = json.dumps(fileinfo)
                 return inventory
 
             # else show the inventory of item [2] in the dictionary
             else:
                 item = split_path[2]
-                stock_qty = json.dumps(fileinfo[item])
-                return f"There are {stock_qty} {item} in stock."
+                if item not in fileinfo:
+                    return f"No result. Check inventory with GET http://localhost:8000/inventory."
+
+                else:
+                    stock_qty = json.dumps(fileinfo[item])
+                    return f"There are {stock_qty} {item} in stock."
 
         elif method == 'PATCH':
             split_path = path.split('/')  # split the path up in a list

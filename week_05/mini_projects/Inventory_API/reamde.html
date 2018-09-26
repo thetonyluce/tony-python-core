@@ -1,0 +1,38 @@
+reamde.txt
+
+<h1>WELCLOME TO THE INVENTORY API 9000</h1>
+<p>Oh hey. Glad you decided to stop by and take a look at this here API
+for really, really, really basic inventory management.<p>
+<p>Using the <strong<InventoryAPI9000</strong<> (that's what we'll call it from now on) you can
+read an existing inventory, add new items, update values for items, and even
+whack an item out of existence. Calls are simple - even Trump could read em!<p>
+
+<h2>==== TO CHECK INVENTORY ====</h2>
+<p>Send an HTTP GET request using the following syntax:<p>
+<p><i>http://localhost:8000/inventory</i><p>
+
+<h2>==== TO CHECK THE QTY OF AN ITEM ====</h2>
+<p>Send an HTTP GET request using the following syntax:</p>
+<p><i>http://localhost:8000/inventory/Item_Name</i></p>
+<p>* Item_Name must be a name of an item in inventory and is case sensitive
+  e.g. http://localhost:8080/inventory/Pants</p>
+
+<h2>==== TO CHANGE THE QTY OF AN ITEM ====</h2>
+<p>Send an HTTP PATCH request using the following syntax:</p>
+<p><i>http://localhost:8000/inventory/Item_Name?delta=qty</p></i>
+<p>* where qty is a positive or negative integer
+  e.g. http://localhost:8000/inventory/Pants?delta=5 to add qty 5 for item Pants<p>
+
+<h2>==== TO ADD AN ITEM TO INVENTORY ====</h2>
+<p>Send an HTTP POST request using the following syntax:</p>
+<p><i>http://localhost:8000/inventory/Item_Name?CREATE_ME_PLEASE</i></p>
+<p>* where the item really wants to be created<p>
+<p>e.g.<i>http://localhost:8000/inventory/Banana_Split?CREATE_ME_PLEASE</i> to create a Banana Split</p>
+<p>* If only it was that easy, right? *</p>
+
+<h2>==== TO ADD AN ITEM COMPLETELY FROM INVENTORY ====</h2>
+<p>Send an HTTP DELETE request using the following syntax:<p>
+<p><i>http://localhost:8000/inventory/Item_Name?DELETE_ME_PLEASE</i></p>
+<p>* where the item really doesn't want to be deleted but is polite about it</p>
+<p>e.g. <i>http://localhost:8000/inventory/Banana_Split?DELETE_ME_PLEASE</i> to delete a Banana Split<p>
+<p>* DELETE a Banana Split, kill an Angel. Just sayin.*<p>
